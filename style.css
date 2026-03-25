@@ -1,0 +1,36 @@
+main {
+    margin: 2em;
+    text-align: center;
+}
+
+body {
+    padding: 2em;
+    background-color: #ffe6f7;
+}
+
+.submit {
+    margin: 1.5em;
+}
+
+h1 {
+    font-family: 'Romance Fatal Goth', sans-serif;
+    color: #e60099;
+    text-shadow: 0 0 10px #ff66cc, 0 0 20px #ff80d5, 0 0 30px #ff99dd, 0 0 40px #ffb3e6;
+    font-size: 4rem;
+}
+
+.form {
+    font-size: 1.75rem;
+}
+
+
+/* for phpnes */
+@media only screen and (max-width: 600px) {
+h1 {
+    font-size: 2rem;
+}
+
+.form {
+    font-size: 1rem;
+}
+}
